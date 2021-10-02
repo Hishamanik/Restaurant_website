@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<meta name="description" content = "This is the first page of the restaurant">
+	<meta name="description" content = "This is the home page of the restaurant">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./css/style.css">
@@ -11,44 +11,32 @@
 		body{
 			font-family:  latha;
 			color:  white;
-			background:  url(slider2-bg1.jpg) no-repeat;
+			background:  url(slider2-bg1.jpg) no-repeat center center fixed;
+			-webkit-background-size: cover;
+  			-moz-background-size: cover;
+  			-o-background-size: cover;
+  			background-size: cover;
 		}
-		.box{width:  900px;
-			float:  right;
-			border:  1px solid white;}
-		.box ul li{
-			width:  120px;
-			float:  left;
-			margin: 10px auto;
-			text-align: center;
-		}
-		.box ul li a{text-decoration:none;
-		color: white;}
-
-		.box ul li:hover{background-color:  green;}
-		.box ul li a:hover{color: white;}
-		<!-- Causes the button to light up-->
 
 	</style>
 
 </head>
 
 <body>
-	<div class="container">
-		<section class="one"> 
-			<div class="box">
+	<div class="contact"><span>Shariatullah Bhaban, 121/C Gulshan Ave, Dhaka 1212 Phone: 01720-096671</span></div>
+		<header> 
+			<div class="main">
 			<ul type="none">
-				<li><a href=""> Home</a></li>
-				<li><a href=""> Menu</a></li>
+				<li><a href="index.html"> Home</a></li>
+				<li><a href="menu/menu.html"> Menu</a></li>
 				<li><a href=""> Order</a></li>
-				<li><a href=""> Team</a></li>
-				<li><a href=""> Contact</a></li>
+				<li><a href=""> Contact Us</a></li>
 			</ul>
 			</div>
-		</section>
-		<section>
-			<h2 style="color: red;"> Second Page </h2>
-		</section>
+		</header>
+		<div class = "center">
+			<img src="logo.PNG">
+		</div>
 	</div>
 </body>
 </html>
